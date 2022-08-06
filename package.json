@@ -1,0 +1,31 @@
+{
+  "name": "mern-todo",
+  "version": "1.0.0",
+  "description": "todo-app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-watch": "nodemon index.js",
+    "dev": "concurrently \"npm run start-watch\" \"cd client && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "mern-todo"
+  },
+  "keywords": [
+    "mern"
+  ],
+  "author": "joe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "bootstrap": "^5.2.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "nodemon": "^2.0.19"
+  }
+}
